@@ -6,19 +6,20 @@
 * Copy example.env to `.env` and update appropriate values 
 * To get *Web3 Api Key* visit [Account Settings](https://admin.moralis.io/account/profile) and check **Keys** tab
 ```
-cp -v example.env .env
+cp -v example.env .env.local
 ```
 
 * Install and run using following commands
 ```
-npm install moralis express
-npm install dotenv --save
-npm run start
+npm install moralis next react react-dom
+npm run dev
 ```
 
-* Using terminal or browser check at http://localhost:3000/demo
+* Using terminal or browser check at http://localhost:3000/native
+  
+* Using terminal or browser check at http://localhost:3000/api/balances
 ```
-curl http://localhost:3000/demo | jq .
+curl -s http://localhost:3000/api/balances | jq
 ```
 
 
