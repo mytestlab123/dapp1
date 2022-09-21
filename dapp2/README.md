@@ -24,4 +24,4 @@ curl -s http://localhost:3000/api/balances | jq
 
 
 Source:
-[Using NodeJS](https://docs.moralis.io/docs/nodejs-dapp-from-scratch)
+[Using NextJS](https://docs.moralis.io/docs/nextjs-dapp)
