@@ -1,11 +1,13 @@
 {
-  "name": "dapp1",
+  "name": "dapp2",
   "version": "1.0.0",
-  "description": "Web3 dAPP demo",
+  "description": "Web3 dAPP using nextjs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "repository": {
     "type": "git",
@@ -22,9 +24,9 @@
   },
   "homepage": "https://github.com/mytestlab123/dapp1#readme",
   "dependencies": {
-    "@moralisweb3/evm-utils": "^2.5.3",
-    "dotenv": "^16.0.2",
-    "express": "^4.18.1",
-    "moralis": "^2.5.3"
+    "moralis": "^2.5.3",
+    "next": "^12.3.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }
